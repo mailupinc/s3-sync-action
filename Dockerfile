@@ -6,9 +6,10 @@ LABEL "com.github.actions.icon"="refresh-cw"
 LABEL "com.github.actions.color"="green"
 
 LABEL version="0.5.1"
-LABEL repository="https://github.com/jakejarvis/s3-sync-action"
-LABEL homepage="https://jarv.is/"
-LABEL maintainer="Jake Jarvis <jake@jarv.is>"
+LABEL forked_from="https://github.com/jakejarvis/s3-sync-action"
+LABEL repository="https://github.com/mailupinc/s3-sync-action"
+LABEL homepage="https://beefree.io/"
+LABEL original_maintainer="Jake Jarvis <jake@jarv.is>"
 
 # https://github.com/aws/aws-cli/blob/master/CHANGELOG.rst
 ENV AWSCLI_VERSION='1.18.14'
